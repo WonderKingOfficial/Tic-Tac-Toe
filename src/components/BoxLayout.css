@@ -1,0 +1,37 @@
+.boxes {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(190, 190, 190);
+    font-size: 4rem;
+    user-select: none;
+    cursor: pointer;
+
+    transition: 1s all ease;
+}
+
+.playGround {
+    position: relative;
+}
+
+.restart {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    content: "Restart";
+    font-size: 1.3rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: none;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.9304096638655462) 17%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+.restart svg {}
